@@ -20,7 +20,7 @@ $('.submit-button').click(function(){
         alert('Debe seleccionar su puntuacion primero')
     }else{
         $('.submit-after-box').show();
-        $('.submit-box').hide();
+        $('.submit-box').addClass('hidden');
     }
 });
 
