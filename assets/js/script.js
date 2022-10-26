@@ -19,7 +19,8 @@ $('.submit-button').click(function(){
     if($('#selected-value').html() == ''){
         alert('Debe seleccionar su puntuacion primero')
     }else(
-        $('.submit-after-box').show()
+        $('.submit-after-box').show(),
+        $('.submit-box').hide()
     )
 });
 
