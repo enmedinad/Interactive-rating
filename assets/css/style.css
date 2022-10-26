@@ -53,7 +53,7 @@ body{
 .submit-title{
     margin: 35px 0 15px 0;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 25px!important;
     letter-spacing: 1px;
 }
 .submit-excerpt{

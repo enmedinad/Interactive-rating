@@ -18,10 +18,10 @@ $('.submit-button').click(function(){
     //check if empty
     if($('#selected-value').html() == ''){
         alert('Debe seleccionar su puntuacion primero')
-    }else(
-        $('.submit-after-box').show(),
-        $('.submit-box').hide()
-    )
+    }else{
+        $('.submit-after-box').show();
+        $('.submit-box').hide();
+    }
 });
 
 
