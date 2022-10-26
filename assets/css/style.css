@@ -117,7 +117,7 @@ body{
     position: absolute;
     z-index: 6;
     width: 400px;
-    min-height: 400px;
+    min-height: 300px;
     border-radius: 50px;
     padding: 30px;
     background-color: var(--dark-blue);
